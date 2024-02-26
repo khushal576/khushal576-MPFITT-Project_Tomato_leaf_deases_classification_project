@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Bacterial Spot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='content.css') }}">
+</head>
+<body>
+    <div class="container">
+    <h2>Your Image</h2>
+    <img id="image" src="data:image/jpeg;base64,{{ image }}" alt="Image">
+    <h2>And Your Tomato leaf image belonging to deases Tomato Bacterial Spot.</h2>
+    
+    <h2>What is it?</h2>
+    <p>
+        Tomato Bacterial Spot is a plant disease caused by the bacterium <i>Xanthomonas campestris pv. vesicatoria</i>. 
+        It affects tomato plants by causing small, water-soaked lesions to form on the leaves, stems, and sometimes fruit. 
+        These lesions later turn brown and develop yellow halos, leading to defoliation and reduced fruit quality and yield.
+    </p>
+
+    <h2>Why does it occur?</h2>
+    <p>
+        The bacterium responsible for Tomato Bacterial Spot thrives in warm, humid conditions. 
+        It can enter tomato plants through natural openings or wounds, such as stomata or injuries caused by insects or cultural practices. 
+        Once inside the plant, the bacterium multiplies and spreads, particularly during periods of high moisture.
+    </p>
+
+    <h2>Prevention:</h2>
+    <ul>
+        <li>Plant Resistant Varieties: Choose tomato varieties that are resistant to bacterial spot if available in your area.</li>
+        <li>Crop Rotation: Rotate tomatoes with unrelated crops to reduce the buildup of bacteria in the soil.</li>
+        <li>Sanitation: Practice good garden hygiene by removing and disposing of infected plant debris promptly. Clean tools and equipment to prevent the spread of bacteria.</li>
+        <li>Water Management: Avoid overhead watering, which can spread bacteria. Instead, use drip irrigation or water at the base of plants.</li>
+        <li>Weed Control: Remove weeds that can harbor bacterial spot and serve as alternative hosts.</li>
+        <li>Spacing: Plant tomatoes with adequate spacing to improve air circulation and reduce humidity around the plants.</li>
+    </ul>
+
+    <h2>Cure:</h2>
+    <p>
+        Unfortunately, once a plant is infected with Tomato Bacterial Spot, there is no cure. 
+        However, there are steps you can take to manage the disease and reduce its impact:
+    </p>
+    <ul>
+        <li>Prune Infected Parts: Remove and destroy infected leaves and stems to prevent further spread of the bacteria.</li>
+        <li>Copper-based Sprays: Copper-based fungicides can help suppress the spread of bacterial spot. Apply according to label instructions, taking care not to exceed recommended concentrations to avoid phytotoxicity.</li>
+        <li>Strengthen Plants: Maintain optimal growing conditions for tomatoes, including proper nutrition and watering, to help plants withstand disease pressure.</li>
+        <li>Monitor and Scout: Regularly inspect tomato plants for symptoms of bacterial spot and take action promptly if detected to prevent further spread.</li>
+    </ul>
+    </div>
+</body>
+</html>

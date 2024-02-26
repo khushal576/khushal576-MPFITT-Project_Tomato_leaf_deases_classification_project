@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Late Blight</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='content.css') }}">
+</head>
+<body>
+    <div class="container">
+    <h1>Your Image</h1>
+    <img id="image" src="data:image/jpeg;base64,{{ image }}" alt="Image">
+    <h1>And Your Tomato leaf image belonging to disease Tomato Late Blight.</h1>
+    
+    <h2>What is it?</h2>
+    <p>
+        Tomato Late Blight is a fungal disease caused by the oomycete <i>Phytophthora infestans</i>. 
+        It manifests as large, dark, irregularly shaped lesions on the leaves, often with a fuzzy white mold on the underside. 
+        The disease can spread quickly and devastate entire tomato crops, particularly in humid conditions.
+    </p>
+
+    <h2>Why does it occur?</h2>
+    <p>
+        Tomato Late Blight thrives in cool, moist conditions, particularly during periods of high humidity or rainfall. 
+        The fungus can survive in plant debris and soil and spreads rapidly through wind, rain, or irrigation water.
+    </p>
+
+    <h2>Prevention:</h2>
+    <ul>
+        <li>Plant Resistant Varieties: Choose tomato varieties that are resistant to late blight if available in your area.</li>
+        <li>Crop Rotation: Rotate tomatoes with unrelated crops to reduce the buildup of fungal spores in the soil.</li>
+        <li>Avoid Overhead Watering: Water the plants at the base to avoid wetting the foliage, which can help prevent the spread of spores.</li>
+        <li>Remove Infected Plant Debris: Clean up and remove any infected plant debris from the garden to reduce the source of fungal spores.</li>
+        <li>Improve Air Circulation: Proper spacing between plants and adequate ventilation can help reduce humidity and minimize fungal growth.</li>
+        <li>Apply Fungicides Preventatively: Apply fungicides containing chlorothalonil or copper before symptoms appear, especially during periods of high disease pressure.</li>
+    </ul>
+
+    <h2>Treatment:</h2>
+    <p>
+        While there's no cure for Tomato Late Blight, you can take steps to manage the disease:
+    </p>
+    <ul>
+        <li>Remove Infected Leaves: Prune and remove infected leaves to prevent the spread of the disease.</li>
+        <li>Apply Fungicides: Fungicides containing chlorothalonil or copper can help manage late blight if applied early and regularly. Follow label instructions carefully.</li>
+        <li>Reduce Leaf Wetness: Avoid overhead watering and irrigate early in the day to allow foliage to dry quickly.</li>
+        <li>Improve Air Circulation: Proper spacing between plants and pruning to increase airflow can help reduce humidity and minimize fungal growth.</li>
+        <li>Monitor Regularly: Regularly inspect tomato plants for signs of late blight and take prompt action if symptoms appear.</li>
+    </ul>
+    </div>
+</body>
+</html>

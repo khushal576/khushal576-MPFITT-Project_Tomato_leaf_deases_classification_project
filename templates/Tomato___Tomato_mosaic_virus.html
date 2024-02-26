@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Mosaic Virus</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='content.css') }}">
+</head>
+<body>
+    <div class="container">
+    <h1>Your Image</h1>
+    <img id="image" src="data:image/jpeg;base64,{{ image }}" alt="Image">
+    <h1>And Your Tomato leaf image belonging to Tomato Mosaic Virus.</h1>
+    
+    <h2>What is it?</h2>
+    <p>
+        Tomato Mosaic Virus (ToMV) is a viral disease that affects tomato plants. 
+        It causes mottled or mosaic-like patterns of light and dark green on the leaves, as well as distortion and stunting of the plant growth. 
+        The virus can also affect the quality and yield of the fruits, leading to reduced marketability.
+    </p>
+
+    <h2>Why does it occur?</h2>
+    <p>
+        Tomato Mosaic Virus can be spread through contaminated tools, hands, soil, or by insects such as aphids. 
+        It can also be transmitted through infected seeds or from infected plants nearby. 
+        The virus can persist in plant debris and soil for long periods, facilitating its spread in subsequent plantings.
+    </p>
+
+    <h2>Prevention:</h2>
+    <ul>
+        <li>Use Virus-Free Seeds: Purchase certified virus-free tomato seeds from reputable sources.</li>
+        <li>Practice Good Sanitation: Clean and disinfect tools, equipment, and hands to prevent the spread of the virus.</li>
+        <li>Control Aphids: Monitor for aphid populations and use insecticides if necessary to control their numbers.</li>
+        <li>Remove Infected Plants: Promptly remove and destroy any plants showing symptoms of Tomato Mosaic Virus to prevent further spread.</li>
+        <li>Rotate Crops: Rotate tomatoes with unrelated crops to reduce the buildup of the virus in the soil.</li>
+        <li>Use Resistant Varieties: Plant tomato varieties that are resistant to Tomato Mosaic Virus if available.</li>
+    </ul>
+
+    <h2>Treatment:</h2>
+    <p>
+        Unfortunately, there is no cure for Tomato Mosaic Virus. 
+        Infected plants should be removed and destroyed to prevent the spread of the virus to healthy plants.
+    </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.container {
+    max-width: 70%;
+    margin: auto;
+    background-color: #D5F5E3;
+  }
+
+body{
+    background-color: #D5F5E3;
+}
+img, h1,h2 {
+    text-align: center;
+    margin: auto; /* Centers the element horizontally */
+    display: block; /* Ensures the element takes full width */
+  }
